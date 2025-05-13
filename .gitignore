@@ -9,7 +9,7 @@
 !.gitignore
 !README.md
 
-# Explicitly ignore other common Flutter folders/files
+# Explicitly ignore other common Flutter files and large files
 **/.dart_tool/
 **/.flutter-plugins
 **/.flutter-plugins-dependencies
@@ -30,3 +30,4 @@
 **/.idea/
 **/.vscode/
 **/*.log
+**/*.zip  # Add this to ignore all .zip files
