@@ -1,4 +1,15 @@
-# Flutter/Dart/Pub related
+# Ignore everything by default
+*
+
+# Allow specific folders
+!*/lib/
+!*/assets/
+
+# Allow the .gitignore file itself and README
+!.gitignore
+!README.md
+
+# Explicitly ignore other common Flutter folders/files
 **/.dart_tool/
 **/.flutter-plugins
 **/.flutter-plugins-dependencies
@@ -6,22 +17,16 @@
 **/.pub-cache/
 **/.pub/
 **/build/
-**/ios/.generated/
-**/macos/.generated/
-**/linux/.generated/
-**/windows/.generated/
-
-# Android related
-**/android/.gradle/
-**/android/local.properties
-**/android/*.keystore
-
-# iOS related
-**/ios/Runner.xcworkspace/
-**/ios/Runner/GoogleService-Info.plist
-
-# Miscellaneous
-*.DS_Store
-*.idea/
-*.vscode/
-*.log
+**/android/
+**/ios/
+**/linux/
+**/macos/
+**/web/
+**/windows/
+**/test/
+**/pubspec.lock
+**/*.iml
+**/.metadata
+**/.idea/
+**/.vscode/
+**/*.log
