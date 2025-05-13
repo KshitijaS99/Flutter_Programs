@@ -1,0 +1,27 @@
+# Flutter/Dart/Pub related
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/.pub-cache/
+**/.pub/
+**/build/
+**/ios/.generated/
+**/macos/.generated/
+**/linux/.generated/
+**/windows/.generated/
+
+# Android related
+**/android/.gradle/
+**/android/local.properties
+**/android/*.keystore
+
+# iOS related
+**/ios/Runner.xcworkspace/
+**/ios/Runner/GoogleService-Info.plist
+
+# Miscellaneous
+*.DS_Store
+*.idea/
+*.vscode/
+*.log
